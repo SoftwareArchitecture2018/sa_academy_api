@@ -14,5 +14,7 @@ services:
       GRADES_URL: '192.168.99.101'
       GRADES_PORT: '4002'
       GRADES_ENTRY: 'grades/'
+      AUTH_PORT: '4000'
+      AUTH_ENTRY: 'ldap/'
     ports:
       - '5000:5000'
